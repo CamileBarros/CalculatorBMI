@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/imc"
+        android:text="@string/imc"
+        style="@style/configIMC" />
+    <TextView
+        android:id="@+id/result"
+        style="@style/configResult" />
+    <EditText
+        android:id="@+id/weight1"
+        android:hint="@string/weight"
+        android:inputType="numberDecimal"
+        style="@style/configInput"/>
+    <EditText
+        android:id="@+id/height1"
+        android:hint="@string/height"
+        android:inputType="numberDecimal"
+        style="@style/configInput" />
+    <Button
+        android:id="@+id/calculate"
+        android:text="@string/buttonCalc"
+        style="@style/configButtonCalc" />
+    <Button
+        android:id="@+id/buttonAC"
+        android:text="@string/clear"
+        style="@style/configButtonAC" />
+
+
+</LinearLayout>
